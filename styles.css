@@ -7,17 +7,19 @@ body {
 }
 
 header {
-    background-color: #a6a4a4;
+    background-color: #f3f3f3;
     padding: 20px;
     text-align: right;
 }
 
-main {
+main .about{
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 20px;
     padding: 20px;
+    background-color: #f3f3f3;
 }
+
 
 .profile {
     grid-row: 1 / span 2;
@@ -54,7 +56,7 @@ footer .icons{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    gap: 10px;
+    gap: 1px;
     text-align: center;
 }
 
@@ -63,10 +65,15 @@ footer .icons{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 5px;
+    padding: 10px;
     width: 104px;
     height: 150px;
 
     background: #DFDFDF;
     border-radius: 5px;
 }
+
+.linha-vertical {
+    height: 170px;/*Altura da linha*/
+    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+  }
