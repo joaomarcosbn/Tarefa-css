@@ -32,7 +32,7 @@ main {
 }
 
 footer .icons{
-    background-color: slateblue;
+    background-color: #C4C4C4;
     padding: 20px;
     text-align: right;
 }
@@ -52,16 +52,21 @@ footer .icons{
 
 .container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-  
-.card {
-    width: 100px;
-    height: 50px;
-    margin: 10px;
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 10px;
     text-align: center;
-    line-height: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    width: 104px;
+    height: 150px;
+
+    background: #DFDFDF;
+    border-radius: 5px;
 }
